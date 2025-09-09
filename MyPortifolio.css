@@ -61,6 +61,7 @@ h2 {
 /* Projetos com fonte moderna */
 .projetos-container {
   display: flex;
+  font-family: 'Quicksand', sans-serif;;
   flex-wrap: wrap;
   gap: 20px;
 }
@@ -76,13 +77,19 @@ h2 {
 }
 
 /* Rodapé com fonte moderna */
-footer {
+.footer {
   background-color: #1b5e20;
   color: #c8e6c9;
   text-align: center;
   padding: 20px;
   font-size: 0.9rem;
   font-family: 'Quicksand', sans-serif;
+}
+#dragon-cursor{
+    width: 250;
+    height: 250px;
+    border: 2px;
+    box-shadow: 2px;
 }
 
 /* Responsivo */
